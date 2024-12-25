@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+  color: white;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.profile-box {
+  background: hsl(0, 0%, 12%);
+  text-align: center;
+  width: 350px;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0px 20px 5px hsl(75, 94%, 57%);
+}
+.profile-pic img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  transition: 0.5s ease;
+}
+.profile-pic img:hover {
+  width: 150px;
+  height: 150px;
+}
+.profile-name h2 {
+  font-weight: 700;
+  font-size: 20px;
+  user-select: none;
+}
+.profile-loc p {
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+  margin: 10px 0;
+}
+.profile-descr p {
+  font-weight: 400;
+  font-size: 14px;
+  margin: 15px 0;
+  color: hsl(0, 0%, 70%);
+  user-select: none;
+}
+.profile-social {
+  margin-top: 20px;
+}
+.profile-social a {
+  display: block;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  background: hsl(0, 0%, 20%);
+  margin: 10px auto;
+  padding: 10px 0;
+  width: 80%;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+.profile-social a:hover {
+  cursor: pointer;
+  background: hsl(75, 94%, 57%);
+  color: black;
+  letter-spacing: 1px;
+  margin: 12px auto;
+  padding: 10px 0;
+}
+.profile-social a i {
+  margin-right: 8px;
+  font-size: 18px;
+  transition: color 0.5s ease;
+}
+.profile-social a:hover i {
+  color: black;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
