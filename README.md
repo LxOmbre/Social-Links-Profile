@@ -2,6 +2,10 @@
 
 A simple social profile page created with HTML and CSS. It includes links to social media platforms with hover effects.
 
+## Live Demo
+
+Live Demo : [Link](https://willowy-syrniki-c4b100.netlify.app)
+
 ## Features
 
 - Hover effects on social media links
